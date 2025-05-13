@@ -37,6 +37,29 @@ ________________________________________________________________________________
 ИТОГ: <br>
 ![image](https://github.com/user-attachments/assets/234f441a-b72d-4a4f-b35b-17941e97392b) <br>
 ![image](https://github.com/user-attachments/assets/858a76a4-6652-40ca-920f-3cf22c92fe8e) <br>
+__________________________________________________________________________________________
+6. Настроить её бэкапы через AWS Backup по расписанию раз в час например. <br>
+Создал vault: <br>
+![image](https://github.com/user-attachments/assets/99175c56-80ce-42f7-b3e7-f1d58add166d) <br>
+
+Создал план и Resource assignment: <br>
+![image](https://github.com/user-attachments/assets/c1b174cf-20bd-480d-98c0-16fd383b0f0b) <br>
+
+![image](https://github.com/user-attachments/assets/4b91516c-b27b-48c3-a990-1ed91204f267) <br>
+
+После добавил TAG на базу данных
+
+Дождался backup job: <br>
+![image](https://github.com/user-attachments/assets/af4e8506-c62c-4bde-98c8-9e4ad08f364e) <br>
+
+Удалил базу данных и восстановил: <br>
+![image](https://github.com/user-attachments/assets/e8f9489a-bb90-4335-87a0-287851156fc3) <br>
+
+
+![image](https://github.com/user-attachments/assets/193606a4-a4cc-48d3-b1e7-cd63a910a14a) <br>
+
+![image](https://github.com/user-attachments/assets/2fe7c2d0-6366-4a3b-8d2e-476aec4c81be)
+
 
 
 
